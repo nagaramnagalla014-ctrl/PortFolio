@@ -473,6 +473,8 @@ body {
   transition: all var(--transition);
 }
 .proj-link:hover { border-color: var(--blue); color: var(--blue); background: rgba(79,142,247,0.08); }
+.proj-link-demo { border-color: rgba(6,214,192,0.3); color: var(--cyan); }
+.proj-link-demo:hover { border-color: var(--cyan); color: var(--cyan); background: rgba(6,214,192,0.08); }
 
 .proj-title { font-size: 0.97rem; font-weight: 700; line-height: 1.4; }
 .proj-dates { font-size: 0.75rem; color: var(--muted); font-family: var(--mono); }

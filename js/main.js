@@ -1,5 +1,8 @@
 'use strict';
 
+const GH = 'https://github.com/nagaramnagalla014-ctrl/';
+const GP = 'https://nagaramnagalla014-ctrl.github.io/';
+
 /* ===== PROJECTS DATA ===== */
 const PROJECTS = [
   {
@@ -8,7 +11,8 @@ const PROJECTS = [
     dates: 'Jan 2016 – Oct 2016',
     desc: 'Enterprise application replacing manual leave approvals with an online workflow. Employees applied for leave, managers reviewed requests, and HR tracked balances through a centralized dashboard.',
     techs: ['Java 7', 'JSP', 'Servlets', 'JDBC', 'MySQL', 'Bootstrap', 'Apache Tomcat'],
-    github: null
+    github: GH + 'Employee-Leave-Attendance-Management-System',
+    demo: GP + 'Employee-Leave-Attendance-Management-System/'
   },
   {
     num: '02', filter: 'enterprise',
@@ -16,7 +20,8 @@ const PROJECTS = [
     dates: 'Jul 2016 – Jun 2017',
     desc: 'Multi-department hospital platform covering patient registration, doctor appointments, laboratory reports, pharmacy, and billing. Eliminated duplicate records and streamlined operations.',
     techs: ['Java 8', 'Spring MVC', 'Hibernate', 'Oracle', 'Maven', 'Bootstrap', 'Jasper Reports'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Hospital-Management-System'
+    github: GH + 'Hospital-Management-System',
+    demo: GP + 'Hospital-Management-System/'
   },
   {
     num: '03', filter: 'enterprise',
@@ -24,7 +29,8 @@ const PROJECTS = [
     dates: 'Apr 2017 – Feb 2018',
     desc: 'Centralized student portal for course registration, grade viewing, transcript downloads, and notifications. Faculty managed grades and attendance through the same platform.',
     techs: ['Java 8', 'Spring MVC', 'Hibernate', 'Oracle', 'AngularJS', 'REST APIs', 'Jenkins'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/University-Student-Information-Portal'
+    github: GH + 'University-Student-Information-Portal',
+    demo: GP + 'University-Student-Information-Portal/'
   },
   {
     num: '04', filter: 'microservices',
@@ -32,7 +38,8 @@ const PROJECTS = [
     dates: 'Jan 2018 – Dec 2018',
     desc: 'Complete retail platform for product browsing, order placement, payments, and shipment tracking. Admin portal supported inventory management, promotions, and fulfillment.',
     techs: ['Java 8', 'Spring Boot', 'Angular 5', 'MySQL', 'REST APIs', 'Jenkins', 'Docker'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Online-Retail-Management-Platform'
+    github: GH + 'Online-Retail-Management-Platform',
+    demo: GP + 'Online-Retail-Management-Platform/'
   },
   {
     num: '05', filter: 'fintech',
@@ -40,7 +47,8 @@ const PROJECTS = [
     dates: 'Aug 2018 – Jul 2019',
     desc: 'Loan processing platform automating the complete lifecycle — application, credit verification, underwriting, document validation, approvals, and disbursement with compliance enforcement.',
     techs: ['Java 8', 'Spring Boot', 'Hibernate', 'Oracle', 'RabbitMQ', 'JWT', 'Docker'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Banking-Loan-Origination-System'
+    github: GH + 'Banking-Loan-Origination-System',
+    demo: GP + 'Banking-Loan-Origination-System/'
   },
   {
     num: '06', filter: 'fintech',
@@ -48,7 +56,8 @@ const PROJECTS = [
     dates: 'Mar 2019 – Feb 2020',
     desc: 'Digital claims platform where policyholders upload accident documents and track status in real time. Claims adjusters review evidence, communicate with customers, and process settlements.',
     techs: ['Java 11', 'Spring Boot', 'React', 'Oracle', 'Elasticsearch', 'Docker', 'SonarQube'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Insurance-Claims-Processing-Platform'
+    github: GH + 'Insurance-Claims-Processing-Platform',
+    demo: GP + 'Insurance-Claims-Processing-Platform/'
   },
   {
     num: '07', filter: 'microservices',
@@ -56,7 +65,8 @@ const PROJECTS = [
     dates: 'Jan 2020 – Apr 2021',
     desc: 'Logistics claims platform handling cargo damage reports. Claims automatically moved through verification, validation, investigation, approval, and payment via Kafka event-driven messaging.',
     techs: ['Java 11', 'Spring Boot', 'React', 'Kafka', 'MongoDB', 'Kubernetes', 'AWS EC2'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Freight-Claims-Automation-System'
+    github: GH + 'Freight-Claims-Automation-System',
+    demo: GP + 'Freight-Claims-Automation-System/'
   },
   {
     num: '08', filter: 'cloud',
@@ -64,7 +74,8 @@ const PROJECTS = [
     dates: 'Oct 2020 – Dec 2021',
     desc: 'Secure onboarding platform where users upload identity documents. Backend services validated authenticity, matched customer info, and integrated with third-party verification providers.',
     techs: ['Java 11', 'Spring Boot', 'Angular 12', 'PostgreSQL', 'Redis', 'AWS S3', 'Kubernetes'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Digital-Identity-Verification-Platform'
+    github: GH + 'Digital-Identity-Verification-Platform',
+    demo: GP + 'Digital-Identity-Verification-Platform/'
   },
   {
     num: '09', filter: 'fintech',
@@ -72,7 +83,8 @@ const PROJECTS = [
     dates: 'Apr 2021 – Mar 2022',
     desc: 'Rule-based engine evaluating thousands of loan applications daily. Business users updated lending rules without application deployments using Drools, enabling rapid policy changes.',
     techs: ['Java 17', 'Spring Boot', 'Drools', 'PostgreSQL', 'Kafka', 'Kubernetes', 'Redis'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Loan-Decision-Engine'
+    github: GH + 'Loan-Decision-Engine',
+    demo: GP + 'Loan-Decision-Engine/'
   },
   {
     num: '10', filter: 'fintech',
@@ -80,7 +92,8 @@ const PROJECTS = [
     dates: 'Jan 2022 – Nov 2022',
     desc: 'Multi-currency payment platform supporting domestic and international transactions. Handled authorization, real-time fraud detection, settlement, reconciliation, and transaction monitoring.',
     techs: ['Java 17', 'Spring Boot', 'Kafka', 'Redis', 'PostgreSQL', 'AWS ECS', 'Grafana', 'Prometheus'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/Global-Payment-Gateway'
+    github: GH + 'Global-Payment-Gateway',
+    demo: GP + 'Global-Payment-Gateway/'
   },
   {
     num: '11', filter: 'microservices',
@@ -88,7 +101,8 @@ const PROJECTS = [
     dates: 'Jun 2022 – Aug 2023',
     desc: 'Migrated monolith to 6 independent microservices (orders, inventory, payments, shipping, notifications) using Kafka choreography-based Saga pattern. Improved peak-season scalability.',
     techs: ['Java 17', 'Spring Boot', 'Kafka', 'MySQL', 'Kubernetes', 'Jenkins', 'AWS'],
-    github: 'https://github.com/nagaramnagalla014-ctrl/E-Commerce-Order-Fulfillment-Microservices'
+    github: GH + 'E-Commerce-Order-Fulfillment-Microservices',
+    demo: GP + 'E-Commerce-Order-Fulfillment-Microservices/'
   },
   {
     num: '12', filter: 'fintech',
@@ -96,7 +110,8 @@ const PROJECTS = [
     dates: 'Jan 2023 – Feb 2024',
     desc: 'Real-time platform analyzing millions of payment transactions daily. Combined ML scores, historical behavior, and business rules to flag suspicious activities within milliseconds.',
     techs: ['Java 17', 'Kafka Streams', 'Apache Flink', 'Redis', 'Cassandra', 'Elasticsearch', 'AWS MSK'],
-    github: null
+    github: GH + 'Real-Time-Fraud-Detection-Platform',
+    demo: GP + 'Real-Time-Fraud-Detection-Platform/'
   },
   {
     num: '13', filter: 'microservices',
@@ -104,7 +119,8 @@ const PROJECTS = [
     dates: 'Aug 2023 – Jun 2024',
     desc: 'Enterprise-wide streaming platform replacing nightly batch jobs with real-time data exchange. Supported hundreds of producers and consumers with message durability and fault tolerance.',
     techs: ['Java 21', 'Apache Kafka', 'Kafka Connect', 'Kafka Streams', 'Schema Registry', 'Kubernetes', 'Grafana'],
-    github: null
+    github: GH + 'Enterprise-Event-Streaming-Platform',
+    demo: GP + 'Enterprise-Event-Streaming-Platform/'
   },
   {
     num: '14', filter: 'cloud',
@@ -112,7 +128,8 @@ const PROJECTS = [
     dates: 'Feb 2024 – Jan 2025',
     desc: 'Analytics solution collecting customer interactions from multiple channels and transforming them into interactive dashboards for monitoring engagement, predicting sales trends, and executive reporting.',
     techs: ['Java 21', 'Spring Boot', 'React', 'PostgreSQL', 'Python', 'Apache Airflow', 'Power BI', 'AWS Lambda'],
-    github: null
+    github: GH + 'Cloud-Native-Customer-Analytics-Platform',
+    demo: GP + 'Cloud-Native-Customer-Analytics-Platform/'
   },
   {
     num: '15', filter: 'cloud',
@@ -120,7 +137,8 @@ const PROJECTS = [
     dates: 'Oct 2024 – Present',
     desc: 'AI-assisted recruitment platform extracting skills, analyzing experience, and ranking candidates against job descriptions. Generates interview questions, candidate summaries, and hiring insights.',
     techs: ['Java 21', 'Spring Boot', 'React 19', 'PostgreSQL', 'Redis', 'LangChain', 'OpenAI API', 'AWS ECS'],
-    github: null
+    github: GH + 'AI-Recruitment-Resume-Intelligence-Platform',
+    demo: GP + 'AI-Recruitment-Resume-Intelligence-Platform/'
   }
 ];
 
@@ -134,13 +152,16 @@ function renderProjects(filter = 'all') {
     const githubBtn = p.github
       ? `<a href="${p.github}" target="_blank" rel="noopener noreferrer" class="proj-link" title="View on GitHub"><i class="fab fa-github"></i></a>`
       : '';
+    const demoBtn = p.demo
+      ? `<a href="${p.demo}" target="_blank" rel="noopener noreferrer" class="proj-link proj-link-demo" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>`
+      : '';
     const card = document.createElement('div');
     card.className = `proj-card reveal${show ? '' : ' hidden'}`;
     card.style.animationDelay = `${(i % 3) * 80}ms`;
     card.innerHTML = `
       <div class="proj-card-top">
         <span class="proj-num">Project ${p.num}</span>
-        <div class="proj-links">${githubBtn}</div>
+        <div class="proj-links">${githubBtn}${demoBtn}</div>
       </div>
       <div>
         <div class="proj-title">${p.title}</div>
