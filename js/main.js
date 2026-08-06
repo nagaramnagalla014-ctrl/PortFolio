@@ -165,7 +165,6 @@ function renderProjects(filter = 'all') {
       </div>
       <div>
         <div class="proj-title">${p.title}</div>
-        <div class="proj-dates">${p.dates}</div>
       </div>
       <p class="proj-desc">${p.desc}</p>
       <div class="proj-techs">${techsHtml}</div>`;
